@@ -1,11 +1,16 @@
-import React from "react";
+"use client";
+
+import React, { useEffect } from "react";
 import SectionHeading from "./section-heading";
 import { projectsData } from "@/lib/data";
 import Project from "./project";
+import { useSectionInView } from "@/lib/hooks";
 
 export default function Projects() {
+  const { ref } = useSectionInView("Projects", 0.6);
+
   return (
-    <section id="projects" className="scroll-mt-28">
+    <section id="projects" className="scroll-mt-28" ref={ref}>
       <SectionHeading>My projects</SectionHeading>
       <div>
         {projectsData.map((project, index) => (
