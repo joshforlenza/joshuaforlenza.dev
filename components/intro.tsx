@@ -18,7 +18,7 @@ export default function Intro() {
             transition={{ type: "tween", duration: 0.2 }}
           >
             <Image
-              src="https://media.licdn.com/dms/image/D4E03AQEzfYbO_fhJZA/profile-displayphoto-shrink_400_400/0/1705778877837?e=1726099200&v=beta&t=UofJXBuZYURkB7BJGjpUr10up3EIyWfWvfRkG7wW4as"
+              src="/profilePic.jpeg"
               alt="Josh portrait"
               width="192"
               height="192"
