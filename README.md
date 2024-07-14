@@ -1,6 +1,6 @@
 <h2 align="center">
    <b>
-        <a href=""><img src="https://github.com/joshforlenza/joshuaforlenza.dev/blob/main/public/site-logo.png" /></a><br>
+        <a href=""><img src="https://github.com/joshforlenza/joshuaforlenza.dev/blob/main/public/site-logo.jpg" /></a><br>
     </b>
 </h2>
 
