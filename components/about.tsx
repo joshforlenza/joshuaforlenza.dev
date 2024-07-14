@@ -51,8 +51,8 @@ export default function About() {
         <span className="italic">When I'm not coding</span>, I enjoy{" "}
         <span className="font-medium"> making music</span> and
         <span className="font-medium"> watching films</span>. Currently, I'm
-        learning Max MSP, a visual programming language for music and multimedia
-        and taking classical guitar lessons.
+        taking classical guitar lessons and learning Max MSP, a visual
+        programming language for music and multimedia.
       </p>
     </motion.section>
   );
