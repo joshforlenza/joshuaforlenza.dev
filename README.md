@@ -1,6 +1,6 @@
 <h2 align="center">
    <b>
-        <a href=""><img src="https://github.com/yourusername/yourportfolio/blob/main/public/logo.png" /></a><br>
+        <a href=""><img src="https://github.com/joshforlenza/joshuaforlenza.dev/blob/main/public/site-logo.png" /></a><br>
     </b>
 </h2>
 
@@ -16,7 +16,7 @@
 A Next.js portfolio site built with Tailwind CSS, TypeScript, and Framer Motion
 </p>
 
-![Home Page](https://github.com/yourusername/yourportfolio/blob/main/public/your_portfolio_site.png)
+![Home Page](https://github.com/joshforlenza/joshuaforlenza.dev/blob/main/public/Home-page.png)
 
 ### Project Stack
 
