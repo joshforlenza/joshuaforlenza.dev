@@ -3,7 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import { RiRocketLine } from "react-icons/ri";
 
-import concertsIO from "@/public/concerts-io.png";
+import concertsIO from "@/public/Concerts-io.png";
 import voiceMemoRecorder from "@/public/Voice-memo.png";
 import MusicIsMyPersonality from "@/public/MusicIsMyPersonality.png";
 
