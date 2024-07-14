@@ -1,6 +1,5 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import { RiRocketLine } from "react-icons/ri";
 
@@ -63,7 +62,6 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
-  ,
   {
     title: "Voice Memo Recorder",
     description:
