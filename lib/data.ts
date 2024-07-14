@@ -2,9 +2,11 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import { RiRocketLine } from "react-icons/ri";
+
+import concertsIO from "@/public/concerts-io.png";
+import voiceMemoRecorder from "@/public/Voice-memo.png";
+import MusicIsMyPersonality from "@/public/MusicIsMyPersonality.png";
 
 export const links = [
   {
@@ -35,52 +37,53 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduated New York University",
+    location: "New York, NY",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated magna cum laude with a BA in Computer Science from NYU's College of Arts and Sciences ",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2020-2024",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Software Developer Intern",
+    location: "Remote",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a Software Developer intern at GBCS Group for 3 months. During my time there, I was promoted to team lead and led the development of GBCS University, a full-stack Next.js web application for company onboarding.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "April 2024 - June 2024",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Software Engineering Fellow",
+    location: "Remote",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I'm an incoming Software Engineering fellow at Headstarter AI.",
+    icon: React.createElement(RiRocketLine),
+    date: "July 2024 - present",
   },
 ] as const;
 
 export const projectsData = [
+  ,
   {
-    title: "CorpComment",
+    title: "Voice Memo Recorder",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "This was a team project for my Software Engineering course. We developed a web app that allows users to record voice recordings that are transcribed by an ML client.",
+    tags: ["Flask", "Python", "MongoDB"],
+    imageUrl: voiceMemoRecorder,
   },
   {
-    title: "rmtDev",
+    title: "Concerts.io",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "I worked as a developer on this project for my Agile Software Development course. My team and I created a full-stack web app that allows users to find local concerts for their favorite artists.",
+    tags: ["React", "Express", "MongoDB"],
+    imageUrl: concertsIO,
   },
   {
-    title: "Word Analytics",
+    title: "Music Is My Personality",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "I developed an Express web app that analyzes Spotify users’ music libraries to generate personalized summaries oftheir music taste",
+    tags: ["Node.js", "Express", "MongoDB"],
+    imageUrl: MusicIsMyPersonality,
   },
 ] as const;
 
@@ -96,12 +99,10 @@ export const skillsData = [
   "Tailwind",
   "Prisma",
   "MongoDB",
-  "Redux",
   "GraphQL",
-  "Apollo",
   "Express",
   "PostgreSQL",
   "Python",
-  "Django",
+  "Flask",
   "Framer Motion",
 ] as const;

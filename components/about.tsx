@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect } from "react";
+import React from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
@@ -17,29 +17,42 @@ export default function About() {
     >
       <SectionHeading>About Me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
+        I first discovered my passion for programming during an introductory
+        course at
+        <span className="font-medium"> New York University</span>, where I
+        earned a
         <span className="font-medium">
+          {" "}
+          Bachelor of Arts in Computer Science
+        </span>
+        . The
+        <span className="italic"> problem-solving aspect</span> of coding
+        captivated me, and I became interested in Web Development through
+        courses like
+        <span className="font-medium">
+          {" "}
+          Applied Internet Technology, Agile Software Development, and Software
+          Engineering
+        </span>
+        . My core stack includes{" "}
+        <span className="font-medium">
+          {" "}
           React, Next.js, Node.js, and MongoDB
         </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        , and I am also proficient with
+        <span className="font-medium"> TypeScript, Prisma, and PostgreSQL</span>
+        . I'm always eager to learn new technologies and continuously improve my
+        skills. I am now seeking a
+        <span className="font-medium"> full-time position</span> as a{" "}
+        <span className="font-medium">Software Engineer</span>, ready to bring
+        my expertise and enthusiasm to a dynamic team.
       </p>
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+      <p className="mb-3">
+        <span className="italic">When I'm not coding</span>, I enjoy{" "}
+        <span className="font-medium"> making music</span> and
+        <span className="font-medium"> watching films</span>. Currently, I'm
+        learning Max MSP, a visual programming language for music and multimedia
+        and taking classical guitar lessons.
       </p>
     </motion.section>
   );
