@@ -36,13 +36,11 @@ export default function Project({
         <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]">
           <h3 className="text-2xl font-semibold">
             {title == "Voice Memo Recorder" ? (
-              <a href="https://github.com/software-students-spring2024/4-containerized-app-exercise-team0-4">
+              <a href="https://github.com/joshforlenza/Voice-Memo-Recorder-App">
                 {title}
               </a>
             ) : title == "Concerts.io" ? (
-              <a href="https://github.com/agiledev-students-spring2023/final-project-concerts-io">
-                {title}
-              </a>
+              <a href="https://github.com/joshforlenza/Concerts-io">{title}</a>
             ) : (
               <a href="https://github.com/joshforlenza/MusicIsMyPersonality">
                 {title}
