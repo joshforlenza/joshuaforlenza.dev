@@ -48,14 +48,14 @@ export const experiencesData = [
     location: "Remote",
     description:
       "I worked as a Software Developer intern at GBCS Group for 3 months. During my time there, I was promoted to team lead and led the development of GBCS University, a full-stack Next.js web application for company onboarding.",
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(RiRocketLine),
     date: "April 2024 - June 2024",
   },
   {
     title: "Associate Software Engineer",
-    location: "Hybrid",
+    location: "Branchburg, NJ",
     description: "I'm an incoming Software Engineer at UKG.",
-    icon: React.createElement(RiRocketLine),
+    icon: React.createElement(CgWorkAlt),
     date: "September 2024 - present",
   },
 ] as const;
