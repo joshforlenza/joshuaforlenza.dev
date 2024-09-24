@@ -42,10 +42,8 @@ export default function About() {
         , and I am also proficient with
         <span className="font-medium"> TypeScript, Prisma, and PostgreSQL</span>
         . I'm always eager to learn new technologies and continuously improve my
-        skills. I am now seeking a
-        <span className="font-medium"> full-time position</span> as a{" "}
-        <span className="font-medium">Software Engineer</span>, ready to bring
-        my expertise and enthusiasm to a dynamic team.
+        skills. I am currently working as a{" "}
+        <span className="font-medium">Software Engineer at UKG.</span>
       </p>
       <p className="mb-3">
         <span className="italic">When I'm not coding</span>, I enjoy{" "}

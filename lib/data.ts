@@ -52,12 +52,11 @@ export const experiencesData = [
     date: "April 2024 - June 2024",
   },
   {
-    title: "Software Engineering Fellow",
-    location: "Remote",
-    description:
-      "I'm an incoming Software Engineering fellow at Headstarter AI.",
+    title: "Associate Software Engineer",
+    location: "Hybrid",
+    description: "I'm an incoming Software Engineer at UKG.",
     icon: React.createElement(RiRocketLine),
-    date: "July 2024 - present",
+    date: "September 2024 - present",
   },
 ] as const;
 
